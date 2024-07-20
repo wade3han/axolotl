@@ -124,6 +124,9 @@ def train(
         total_num_steps,
     )
 
+    import ipdb;
+    ipdb.set_trace();
+
     if cfg.fix_untrained_tokens:
         fix_untrained_tokens(model, tokenizer, train_dataset)
         if cfg.local_rank == 0:
