@@ -33,6 +33,7 @@ wandb_log_model:
 
 gradient_accumulation_steps: 1
 micro_batch_size: 4
+eval_sample_packing: False
 num_epochs: 1
 optimizer: adamw_bnb_8bit
 lr_scheduler: cosine
